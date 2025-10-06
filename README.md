@@ -24,7 +24,7 @@ TaskCLI is a Python-based command-line tool for managing tasks directly from you
 Ensure that Python 3.8 or later is installed on your system.
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/abrar515/TaskCLI/
 cd taskcli
 pip install -r requirements.txt   # optional, not required for basic usage
 ```
