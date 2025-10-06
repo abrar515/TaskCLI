@@ -136,6 +136,12 @@ All tasks are stored in a `tasks.json` file in the same directory as the script.
 - Support exporting tasks to CSV or Markdown  
 - Optional integration with calendar tools  
 
+
+## Project Source
+
+This project is based on the [Task Tracker project on roadmap.sh](https://roadmap.sh/projects/task-tracker).
+
+
 ## Author
 
 Abrar Ahmad  
