@@ -138,5 +138,5 @@ All tasks are stored in a `tasks.json` file in the same directory as the script.
 
 ## Author
 
-Your Name  
+Abrar Ahmad  
 Email: abrar515@hotmail.com
