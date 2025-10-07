@@ -42,7 +42,7 @@ def main():
             print(f"Added task {tasks[-1]['id']}: {tasks[-1]['description']}")
             dirty = True
         except IndexError:
-            print("Usage: python TasksCLI.py add <task_description>")
+            print("Usage: python TaskCLI.py add <task_description>")
             sys.exit()
 
 
@@ -58,7 +58,7 @@ def main():
                 dirty = True
                 print(f"Description of Task {task_id} updated to: {description}")
         except (IndexError, ValueError):
-            print("Usage: python TasksCLI.py update <task_id> <new_description>")
+            print("Usage: python TaskCLI.py update <task_id> <new_description>")
             sys.exit()
 
 
@@ -75,7 +75,7 @@ def main():
             else:
                 print(f"Task {task_id} not found.")
         except (ValueError, IndexError):
-            print("Usage: python TasksCLI.py delete <task_id>")
+            print("Usage: python TaskCLI.py delete <task_id>")
             sys.exit()
 
 
@@ -100,7 +100,7 @@ def main():
             else:
                 print(f"Task {task_id} not found.")
         except (ValueError, IndexError):
-            print("Usage: python TasksCLI.py mark <task_id> <status>  OR  python TasksCLI.py mark-<status> <task_id>")
+            print("Usage: python TaskCLI.py mark <task_id> <status>  OR  python TaskCLI.py mark-<status> <task_id>")
             print("Status must be one of: todo, in-progress, done")
             sys.exit()
 
@@ -199,4 +199,5 @@ def find_task_index(task_id, tasks):
 
 
 if __name__ == '__main__':
+
     main()
